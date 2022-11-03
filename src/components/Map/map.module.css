@@ -1,0 +1,37 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.searchContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.results {
+    position: absolute;
+    width: 320px;
+    z-index: 1000;
+    background: white;
+    border-radius: 4px;
+    top: 50px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.result {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.result:hover {
+    cursor: pointer;
+    background: lightblue;
+}
+
+.map {
+    width: 100% !important;
+    height: 100% !important;
+}

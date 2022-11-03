@@ -1,0 +1,14 @@
+.input {
+    position: absolute;
+    width: 300px;
+    z-index: 1000;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.input:focus {
+    border: 1px solid skyblue;
+}

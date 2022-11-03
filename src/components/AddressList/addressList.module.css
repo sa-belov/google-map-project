@@ -1,0 +1,18 @@
+.list {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    padding: 20px;
+    border-bottom: 1px solid black;
+    cursor: grab;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.button {
+    height: 30px;
+}
